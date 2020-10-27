@@ -8,81 +8,41 @@ class Solution(object):
         :type wordList: List[str]
         :rtype: int
         """
-        if endWord not in wordList and beginWord != endWord:
+        # 为提高查找时间复杂度，将 wordList 构造成 set
+        wordSet = set(wordList)
+        if endWord not in wordSet and beginWord != endWord:
             return 0
-        # 先构造无向图
-        wordList = [beginWord] + wordList
-        start, end = 0, 0
-        n = len(wordList)
-        print(n)
-        graph = Graph()
-        for i in range(n):
-            if wordList[i] == endWord:
-                end = i
-            for j in range(i+1, n):
-                word1 = wordList[i]
-                word2 = wordList[j]
-                if self.has_adge(word1, word2):
-                    graph.add_adge(i, j)
         # BFS 查找图的最短路径
-        print("xxxx")
-        length = self.bfs(graph, start, end)
+        length = self.bfs(wordSet, beginWord, endWord)
         return length
-    
-    def bfs(self, graph, start, end):
-        print(len(graph.adj))
-        if start == end:
+
+    def bfs(self, wordSet, beginWord, endWord):
+        if beginWord == endWord:
             return 1
         from collections import deque
         queue = deque()
-        queue.append(start)
+        queue.append(beginWord)
         visited = set()
-        visited.add(start)
+        visited.add(beginWord)
+        alp = "abcdefghijklmnopqrstuvwxyz"
         length = 1
         while queue:
             for _ in range(len(queue)):
-                w = queue.popleft()
-                if w not in graph.adj:
-                    continue
-                for q in graph.adj[w]:
-                    if q in visited:
-                        continue
-                    if q == end:
-                        return length + 1
-                    visited.add(q)
-                    queue.append(q)
+                word = queue.popleft()
+                L = len(word)
+                for a in alp:
+                    for i in range(L):
+                        nextword = word[:i] + a + word[i+1:]
+                        if nextword == endWord:
+                            return length + 1
+                        if nextword not in wordSet:
+                            continue
+                        if nextword in visited:
+                            continue
+                        visited.add(nextword)
+                        queue.append(nextword)
             length += 1
         return 0
-    
-    def has_adge(self, word1, word2):
-        if len(word1) != len(word2):
-            return False
-        diff = 0
-        i, j = 0, 0
-        while i < len(word1) and j < len(word2):
-            if word1[i] != word2[j]:
-                diff += 1
-            i += 1
-            j += 1
-        return diff == 1
-
-
-class Graph(object):
-    """邻接表存储无向图"""
-    def __init__(self):
-        self.adj = {}
-
-    def add_adge(self, s, t):
-        if s in self.adj:
-            self.adj[s].append(t)
-        else:
-            self.adj[s] = [t]
-        if t in self.adj:
-            self.adj[t].append(s)
-        else:
-            self.adj[t] = [s]
-
-
 
 
 if __name__ == '__main__':
