@@ -10,7 +10,7 @@
 
 class Solution:
     def searchMatrix(self, matrix, target):
-        # 使用广度优先搜索
+        # 使用广度优先搜索，注意，极端情况下性能会很差
         if not matrix:
             return (-1, -1)
         n = len(matrix)
@@ -18,7 +18,7 @@ class Solution:
         start = (0, 0)
         visited = {start}
         queue = [start]
-        direction = [(-1, 0), (1, 0), (0, 1), (0, -1)]
+        direction = [(0, 0), (-1, 0), (1, 0), (0, 1), (0, -1)]
         while queue:
             i, j = queue.pop(0)
             for dx, dy in direction:
