@@ -16,25 +16,32 @@ class Solution:
         n = len(matrix)
         m = len(matrix[0])
         visited = set()
+        pos = []
 
-        def dfs(i, j):
-            visited.add((i, j))
-            print(visited)
-            direction = [(-1, 0), (1, 0), (0, 1), (0, -1)]
-            for dx, dy in direction:
-                x, y = i + dx, j + dy
-                if x < 0 or y < 0 or x >= n or y >= m:
-                    continue
-                item = (x, y)
-                if item in visited:
-                    continue
-                if matrix[x][y] == target:
-                    return x, y
-                return dfs(x, y)
+        def dfs(x, y):
+            if pos:
+                return
+            if x < 0 or y < 0 or x >= n or y >= m:
+                return
+            item = (x, y)
+            if item in visited:
+                return
+            if matrix[x][y] == target:
+                pos.append(item)
+                return
+            visited.add(item)
+            if matrix[x][y] < target:
+                dfs(x+1, y)
+                dfs(x, y+1)
+                dfs(x+1, y+1)
+            if matrix[x][y] > target:
+                dfs(x-1, y)
+                dfs(x, y-1)
+                dfs(x-1, y-1)
 
         # 为加快效率，从中间位置开始搜索
-        result = dfs(n/2, m/2)
-        return result
+        dfs(n>>1, m>>1)
+        return pos[0] if pos else (-1, -1)
 
 
 if __name__ == '__main__':
