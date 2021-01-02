@@ -12,7 +12,9 @@
  * [对角元素相等的矩阵](#对角元素相等的矩阵)
  * [嵌套数组](#嵌套数组)
  * [分隔数组](#分隔数组)
+
 [链表](#链表)
+
  * [找出两个链表的交点](#找出两个链表的交点)
  * [链表反转](#链表反转)
  * [归并两个有序的链表](#归并两个有序的链表)
@@ -23,6 +25,7 @@
  * [回文链表](#回文链表)
  * [固定分隔链表](#固定分隔链表)
  * [链表元素按奇偶重排](#链表元素按奇偶重排)
+
 [栈和队列](#栈和队列)
  * [用栈实现队列](#用栈实现队列)
  * [用队列实现栈](#用队列实现栈)
@@ -30,11 +33,13 @@
  * [用栈实现括号匹配](#用栈实现括号匹配)
  * [数组中元素与下一个比它大的元素之间的距离](#数组中元素与下一个比它大的元素之间的距离)
  * [循环数组中比当前元素大的下一个元素](#循环数组中比当前元素大的下一个元素)
+
 [哈希表](#哈希表)
  * [两数之和](#两数之和)
  * [判断数组是否含有重复元素](#判断数组是否含有重复元素)
  * [最长和谐序列](#最长和谐序列)
  * [最长连续序列](#最长连续序列)
+
 [字符串](#字符串)
  * [两个字符串包含的字符是否完全相同](#两个字符串包含的字符是否完全相同)
  * [计算一组字符集合可以组成的回文字符串的最大长度](#计算一组字符集合可以组成的回文字符串的最大长度)
@@ -42,6 +47,7 @@
  * [回文子字符串个数](#回文子字符串个数)
  * [判断一个整数是否是回文数](#判断一个整数是否是回文数)
  * [统计二进制字符串中连续 1 和连续 0 数量相同的子字符串个数](#统计二进制字符串中连续-1-和连续-0-数量相同的子字符串个数)
+
 [树](#树)
  * [树的高度](#树的高度)
  * [平衡树](#平衡树)
@@ -74,6 +80,7 @@
  * [寻找二叉查找树中出现次数最多的值](#寻找二叉查找树中出现次数最多的值)
  * [实现一个 Trie](#实现一个-trie)
  * [实现一个 Trie，用来求前缀和](#实现一个-trie用来求前缀和)
+
 [双指针](#双指针)
  * [有序数组的 Two Sum](#有序数组的-two-sum)
  * [两数平方和](#两数平方和)
@@ -82,30 +89,38 @@
  * [归并两个有序数组](#归并两个有序数组)
  * [判断链表是否存在环](#判断链表是否存在环)
  * [最长子序列](#最长子序列)
+
 [排序](#排序)
+
  * [出现频率最多的 k 个元素](#出现频率最多的-k-个元素)
  * [按照字符出现次数对字符串排序](#按照字符出现次数对字符串排序)
  * [荷兰国旗问题(按颜色排序)](#荷兰国旗问题按颜色排序)
+
 [二分查找](#二分查找)
+
  * [求开方](#求开方)
  * [找出大于给定元素的最小元素](#找出大于给定元素的最小元素)
  * [找出有序数组的单个元素](#找出有序数组的单个元素)
  * [第一个错误的版本](#第一个错误的版本)
  * [旋转数组的最小数字](#旋转数组的最小数字)
  * [有序数组中连续出现数字的区间](#有序数组中连续出现数字的区间)
+
 [分治](#分治)
  * [给表达式加括号求值](#给表达式加括号求值)
  * [不同的二叉搜索树 II](#不同的二叉搜索树-ii)
+
 [广度优先搜索(BFS)](#广度优先搜索bfs)
  * [计算在网格中从原点到特定点的最短路径长度](#计算在网格中从原点到特定点的最短路径长度)
  * [组成整数的最小平方数数量](#组成整数的最小平方数数量)
  * [最短单词路径](#最短单词路径)
+
 [深度优先搜索(DFS)](#深度优先搜索dfs)
  * [岛屿的最大面积](#岛屿的最大面积)
  * [岛屿的数量](#岛屿的数量)
  * [朋友圈数量](#朋友圈数量)
  * [填充被围绕的区域](#填充被围绕的区域)
  * [能到达的太平洋和大西洋的区域](#能到达的太平洋和大西洋的区域)
+
 [回溯算法](#回溯算法)
  * [数字键盘组合](#数字键盘组合)
  * [IP 地址划分](#ip-地址划分)
@@ -121,6 +136,7 @@
  * [含有相同元素求子集](#含有相同元素求子集)
  * [分割字符串使得每个部分都是回文数](#分割字符串使得每个部分都是回文数)
  * [N 皇后问题](#n-皇后问题)
+
 [贪心算法](#贪心算法)
  * [分配饼干](#分配饼干)
  * [不重叠的区间个数](#不重叠的区间个数)
@@ -133,7 +149,9 @@
  * [修改一个数成为非递减数组](#修改一个数成为非递减数组)
  * [子数组最大的和](#子数组最大的和)
  * [分隔字符串使同种字符出现在一起](#分隔字符串使同种字符出现在一起)
+
 [动态规划](#动态规划)
+
  * [斐波那契数列](#斐波那契数列)
     * [爬楼梯问题](#爬楼梯问题)
     * [强盗抢劫](#强盗抢劫)
@@ -610,105 +628,650 @@ class Solution(object):
 
 ### 找出两个链表的交点
 
-[力扣](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/description/)
+[力扣-160](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/description/)
+
+![image-20201223001049495](https://gitee.com/turbobin_cao/images/raw/master/image-20201223001049495.png)
+
+**解题思路：** 使 A 链接尾部连接到 B 链表的头部，B 链表的尾部连接到 A 链表的尾部，假设 A 和 B 公共的段为  c，A 独立的段为 a，B 独立的段为 b，可以得出 a+c+b = b+c+a，当两个指针走完后将会在交点相遇。
+
+```python
+class Solution(object):
+    def getIntersectionNode(self, headA, headB):
+        nodeA = headA
+        nodeB = headB
+        while nodeA != nodeB:
+            # 当两个链表不相交时，最后 null = null 也成立
+            nodeA = nodeA.next if nodeA else headB
+            nodeB = nodeB.next if nodeB else headA   
+        return nodeA
+```
 
 ### 链表反转
 
-[力扣](https://leetcode-cn.com/problems/reverse-linked-list/description/)
+[力扣-206](https://leetcode-cn.com/problems/reverse-linked-list/description/)
+
+![image-20201223002750126](https://gitee.com/turbobin_cao/images/raw/master/image-20201223002750126.png)
+
+**解题思路：** 反转指针时，注意保持前驱节点，还需要一个临时变量保存下一个节点。
+
+```python
+class Solution(object):
+    def reverseList(self, head):
+        prev = None
+        while head:
+            tmp = head.next
+            head.next = prev
+            prev = head
+            head = tmp
+        return prev
+```
 
 ### 归并两个有序的链表
 
-[力扣](https://leetcode-cn.com/problems/merge-two-sorted-lists/description/)
+[力扣-21](https://leetcode-cn.com/problems/merge-two-sorted-lists/description/)
+
+![image-20201223003029868](https://gitee.com/turbobin_cao/images/raw/master/image-20201223003029868.png)
+
+**解题思路：** 先创建一个哨兵头节点，使用归并排序的思想，两个链表逐步比较，归并到哨兵节点上
+
+```python
+class Solution(object):
+    def mergeTwoLists(self, l1, l2):
+        l3 = ListNode(0)
+        head = l3
+        while l1 and l2:
+            if l1.val < l2.val:
+                head.next = l1
+                l1 = l1.next
+            else:
+                head.next = l2
+                l2 = l2.next
+            head = head.next	# 注意这行，要同时移动头指针
+        head.next = l1 if l1 else l2	# 把未遍历的节点直接串联起来
+        return l3.next
+```
 
 ### 从有序链表中删除重复节点
 
-[力扣](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/description/)
+[力扣-83](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/description/)
+
+![image-20201223004509464](https://gitee.com/turbobin_cao/images/raw/master/image-20201223004509464.png)
+
+**解题思路：** 使用一前一后两个指针，前后两个指针节点值相等时，直接删除后一个节点，否则前后指针都往后走一步。
+
+```python
+class Solution(object):
+    def deleteDuplicates(self, head):
+        prev = head
+        curr = head
+        while curr and curr.next:
+            curr = curr.next
+            if curr.val == prev.val:
+                prev.next = curr.next
+            else:
+                prev = prev.next
+        return head
+```
 
 ### 删除链表的倒数第 n 个节点
 
-[力扣](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/description/)
+[力扣-19](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/description/)
+
+![image-20201223010802562](https://gitee.com/turbobin_cao/images/raw/master/image-20201223010802562.png)
+
+**解题思路：** 使用一头一尾两个指针，尾指针先走，走到第 n 个节点，然后两个指针再同时向后移动。注意移动过程中保存前指针的前驱节点，方便做删除操作。
+
+```python
+class Solution(object):
+    def removeNthFromEnd(self, head, n):
+        tail = head
+        while n > 0:
+            tail = tail.next
+            n -= 1
+        # 如果已经遍历到尾了，则直接删除头节点
+        if not tail:
+            return head.next
+        curr = head
+        while tail:
+            prev = curr	# 保持前驱节点
+            curr = curr.next
+            tail = tail.next
+        prev.next = prev.next.next
+        return head
+```
 
 ### 交换链表中的相邻结点
 
-[力扣](https://leetcode-cn.com/problems/swap-nodes-in-pairs/description/)
+[力扣-24](https://leetcode-cn.com/problems/swap-nodes-in-pairs/description/)
+
+![image-20201223223548541](https://gitee.com/turbobin_cao/images/raw/master/image-20201223223548541.png)
+
+**解题思路：** 使用前后两个指针指向第 1 和第 2 个节点，先断开第 2 个节点，再使第 2 个节点的 next 指针指向第 1 个节点，这时，第 1 个节点和第 2 个节点已经交换，还需要设置一个哨兵节点作为链表的头，哨兵节点的头指针指向第 2 个节点。第一步交换完成后，三个指针都继续向后移动。注意边界条件的判断，具体看如下代码：
+
+```python
+class Solution(object):
+    def swapPairs(self, head):
+        # 先判断边界条件
+        if not head or not head.next:
+            return head
+        prev = head
+        curr = head.next
+        l = ListNode(0)     # 建一个哨兵节点
+        pprev = l
+        while curr:
+            prev.next = curr.next
+            curr.next = prev
+            pprev.next = curr
+            # 调整三个指针
+            pprev = prev
+            prev = prev.next
+            if prev:
+                curr = prev.next
+            else:
+                break	# 已经到末尾了，退出循环
+        return l.next
+```
 
 ### 链表求和
 
-[力扣](https://leetcode-cn.com/problems/add-two-numbers-ii/description/)
+[力扣-445](https://leetcode-cn.com/problems/add-two-numbers-ii/description/)
+
+![image-20201223233400606](https://gitee.com/turbobin_cao/images/raw/master/image-20201223233400606.png)
+
+**解题思路：** 先遍历两个链表，使用两个栈来分别存储两个链表元素，然后分别从两个栈取出元素相加求和，然后逐步构造链表节点串联起来。由于相加涉及到数学逻辑，超过 10 需要进位，需要使用一个变量来保存进位的值。具体看如下代码：
+
+```python
+class Solution(object):
+    def addTwoNumbers(self, l1, l2):
+        stack1 = []
+        stack2 = []
+        while l1:
+            stack1.append(l1.val)
+            l1 = l1.next
+        while l2:
+            stack2.append(l2.val)
+            l2 = l2.next
+
+        l = ListNode(0)
+        head = l
+        c = 0   # c表示进位数
+        while stack1 or stack2 or c > 0:
+            a = stack1.pop() if stack1 else 0
+            b = stack2.pop() if stack2 else 0
+            item = a + b + c
+            c, val = divmod(item, 10)
+            node = ListNode(val)
+            # 每次在head和head.next之间插入新的节点
+            node.next = head.next
+            head.next = node
+        return head.next
+```
 
 ### 回文链表
 
-[力扣](https://leetcode-cn.com/problems/palindrome-linked-list/description/)
+[力扣-234](https://leetcode-cn.com/problems/palindrome-linked-list/description/)
+
+![image-20201224002902712](https://gitee.com/turbobin_cao/images/raw/master/image-20201224002902712.png)
+
+**解题思路：** 使用快慢两个指针，快指针每次走 2 步，慢指针每次走 1 步，当快指针走到末尾时，慢指针在中间节点，此时翻转后半段链表，最后使用一头一尾两个指针进行回文判断
+
+```python
+class Solution(object):
+    def isPalindrome(self, head):
+        # 利用快慢指针找到中间结点
+        slow = head
+        fast = head
+        while fast and fast.next:
+            slow = slow.next
+            fast = fast.next.next
+        # 反转slow到fast这后半段的链表
+        prev = None
+        while slow:
+            tmp = slow.next
+            slow.next = prev
+            prev = slow
+            slow = tmp
+        # 比较前半段和后半段
+        while head and prev:
+            if head.val != prev.val:
+                return False
+            head = head.next
+            prev = prev.next
+        return True
+```
 
 ### 固定分隔链表
 
-[力扣](https://leetcode-cn.com/problems/split-linked-list-in-parts/description/)
+[力扣-725](https://leetcode-cn.com/problems/split-linked-list-in-parts/description/)
+
+![image-20201226220300208](https://gitee.com/turbobin_cao/images/raw/master/image-20201226220300208.png)
+
+**解题思路：** 这题还是有点意思，整个链表分割成 k 个部分，每个部分要尽可能平均分，需要先知道链表的总长度，然后根据总长度求出分成 k 的部分的平均长度，由于不能刚好平均分，因此会存在余数。因为需要排在前面的长度比后面的长，因此需要把余数平摊分到前面的长度中。
+
+```python
+class Solution(object):
+    def splitListToParts(self, root, k):
+        # 先计算链表总长度
+        n = 0
+        head = root
+        while head:
+            n += 1
+            head = head.next
+
+        # 计算按k平均分的长度和余数
+        avg_len, mod = divmod(n, k)
+        result = []
+        for i in range(k):
+            # 如果有余数，就把余数往前平摊，得出这一段的限制长度
+            limit = avg_len + 1 if mod > 0 else avg_len
+            mod -= 1	# 余数减一
+            node = ListNode(0)
+            curr = node
+            while limit > 0:
+                curr.next = root
+                curr = curr.next
+                root = root.next
+                limit -= 1
+            curr.next = None    # 注意这里要断开与后一个节点的连接
+            result.append(node.next)  
+        return result
+```
 
 ### 链表元素按奇偶重排
 
-[力扣](https://leetcode-cn.com/problems/odd-even-linked-list/description/)
+[力扣-328](https://leetcode-cn.com/problems/odd-even-linked-list/description/)
+
+![image-20201226222757163](https://gitee.com/turbobin_cao/images/raw/master/image-20201226222757163.png)
+
+**解题思路：** 此题不能使用额外的空间，也就是不能创建额外的链表节点，那么就只能使用临时变量来保存必要的节点了。链表奇偶重排，遍历的时候，需要奇节点每次往前走 2 步，偶节点每次往前走 2 步，最后奇链表和偶链表串联起来，具体看如下代码：
+
+```python
+class Solution(object):
+    def oddEvenList(self, head):
+        # 先判断边界情况
+        if not head or not head.next:
+            return head
+        odd = head
+        even = head.next
+        even_head = head.next   # 先保存偶数头结点
+        while even and even.next:
+            # 奇偶节点每次走2步
+            odd.next = odd.next.next
+            even.next = even.next.next
+            odd = odd.next
+            even = even.next
+        # 奇偶链表串联起来
+        odd.next = even_head
+        return head
+```
 
 ## 栈和队列
 
 ### 用栈实现队列
 
-[力扣](https://leetcode-cn.com/problems/implement-queue-using-stacks/description/)
+[力扣-232](https://leetcode-cn.com/problems/implement-queue-using-stacks/description/)
+
+**解题思路：** 队列是先进先出，栈是后进先出，如果要用栈来实现队列，需要使用两个栈，push 时数据存入第一个栈，pop 时如果判断第二栈是空，则把第一个栈的所有元素全部导入到第二个栈。
+
+```python
+class MyQueue(object):
+
+    def __init__(self):
+        self.stack1 = []
+        self.stack2 = []
+
+    def push(self, x):
+        self.stack1.append(x)
+
+    def pop(self):
+        # 第二个栈为空的时才需要把元素导过去
+        if not self.stack2:
+            while self.stack1:
+                self.stack2.append(self.stack1.pop())
+        return self.stack2.pop()
+
+    def peek(self):
+        x = self.pop()
+        self.stack2.append(x)
+        return x
+
+    def empty(self):
+        if self.stack1 or self.stack2:
+            return False
+        return True
+```
 
 ### 用队列实现栈
 
-[力扣](https://leetcode-cn.com/problems/implement-stack-using-queues/description/)
+[力扣-225](https://leetcode-cn.com/problems/implement-stack-using-queues/description/)
+
+**解题思路：** 对两个队列组合并不能实现栈，因为队列是先进先出，**组合之后并没有改变元素进出的顺序**，如果要用队列来实现栈，在 pop 操作时，需要把除最后进的元素以外的所有元素先出队，保存到另一个队列，然后再取出最后进的那个元素，操作完成后需要交换两个队列的作用，重复之前的操作。
+
+```python
+class MyStack(object):
+
+    def __init__(self):
+        self.queue = []
+        self.queue2 = []
+
+    def push(self, x):
+        self.queue.append(x)
+
+    def pop(self):
+        while len(self.queue) > 1:
+            item = self.queue.pop(0)
+            self.queue2.append(item)
+        
+        x = self.queue.pop(0)
+        # 交换两个队列的作用
+        self.queue, self.queue2 = self.queue2, self.queue
+        return x
+
+    def top(self):
+        return self.queue[-1]
+
+    def empty(self):
+        return True if not self.queue else False
+```
 
 ### 最小值栈
 
-[力扣](https://leetcode-cn.com/problems/min-stack/description/)
+[力扣-155](https://leetcode-cn.com/problems/min-stack/description/)
+
+![image-20201227142554758](https://gitee.com/turbobin_cao/images/raw/master/image-20201227142554758.png)
+
+**解题思路：** 使用一个普通栈和一个最小值栈，普通栈就是正常的 push 和 pop 操作，最小值栈在 push 时需要与栈顶元素比较，每次都把最小的值 push 进去。需要注意的是，最小值栈需要和普通栈保持相同的元素个数，这样在 pop 时可以减少复杂的操作。如：顺序添加 1, 2, 3, 4, 5，普通栈元素：[1, 2, 3, 4, 5]，最小值栈元素：[1, 1, 1, 1, 1]。
+
+```python
+class MinStack(object):
+
+    def __init__(self):
+        self.stack = []
+        self.min_stack = []
+
+    def push(self, x):
+        self.stack.append(x)
+        if not self.min_stack:
+            self.min_stack.append(x)
+            return
+        m = self.min_stack[-1]
+        m = min(x, m)
+        self.min_stack.append(m)
+
+    def pop(self):
+        self.stack.pop()
+        self.min_stack.pop()
+
+    def top(self):
+        return self.stack[-1]
+
+    def getMin(self):
+        return self.min_stack[-1]
+
+```
 
 ### 用栈实现括号匹配
 
-[力扣](https://leetcode-cn.com/problems/valid-parentheses/description/)
+[力扣-20](https://leetcode-cn.com/problems/valid-parentheses/description/)
+
+![image-20201227143929601](https://gitee.com/turbobin_cao/images/raw/master/image-20201227143929601.png)
+
+**解题思路：** 使用一个栈记录左括号，当遇到右括号时，从栈顶弹出一个括号进行匹配。最后要检查下栈是否空了，栈空了说明刚好全部匹配上了。
+
+```python
+class Solution(object):
+    def isValid(self, s):
+        stack = []
+        match = {")": "(", "]": "[", "}": "{"}
+        for char in s:
+            if char in match.values():
+                stack.append(char)
+            if not stack:
+                return False
+            if char in match and match[char] != stack.pop():
+                return False
+        # 检查栈是否为空
+        return True if not stack else False
+```
 
 ### 数组中元素与下一个比它大的元素之间的距离
 
-[力扣](https://leetcode-cn.com/problems/daily-temperatures/description/)
+[力扣 -739](https://leetcode-cn.com/problems/daily-temperatures/description/)
+
+![image-20201227174440846](https://gitee.com/turbobin_cao/images/raw/master/image-20201227174440846.png)
+
+**解题思路：** 
+
+**方法一：** 暴力解法，针对每个元素都往后遍历找出第一个大于此元素的数组下标，两个下标相减即是两元素之间的距离。这种方法时间复杂度较高，在数组比较大时会导致超时。
+
+```python
+class Solution(object):
+    def dailyTemperatures(self, T):
+        n = len(T)
+        result = [0] * n
+        for i in range(n):
+            j = i
+            while j < n - 1:
+                j += 1
+                if T[i] < T[j]:
+                    result[i] = j - i
+                    break
+        return result
+```
+
+**方法二：** 使用一个栈来保存那些未匹配的下一个比它大的元素，不过栈中保存的是数组下标，当遇到下一个比栈顶元素大的元素时，弹出栈顶元素，计算两下标的距离，再继续比较下一个栈顶元素。
+
+```python
+class Solution(object):
+    def dailyTemperatures(self, T):
+        n = len(T)
+        result = [0] * n
+        stack = []
+        for i in range(n):
+            while stack and T[i] > T[stack[-1]]:
+                j = stack.pop()
+                result[j] = i - j
+            stack.append(i)
+        return result
+```
 
 ### 循环数组中比当前元素大的下一个元素
 
-[力扣](https://leetcode-cn.com/problems/next-greater-element-ii/description/)
+[力扣-503](https://leetcode-cn.com/problems/next-greater-element-ii/description/)
+
+![image-20201227191523960](https://gitee.com/turbobin_cao/images/raw/master/image-20201227191523960.png)
+
+**解题思路：** 这一题的解法与上一题类似，不同的是，这是一个循环数组，相当于需要遍历数组两次。注意本题输出的是元素，而不是元素下标。
+
+```python
+class Solution(object):
+    def nextGreaterElements(self, nums):
+        n = len(nums)
+        result = [-1] * n
+        stack = []
+        for i in range(n + n):
+            num = nums[i % n]	# 用余数法计算下标值
+            while stack and num > nums[stack[-1]]:
+                j = stack.pop()
+                result[j] = num
+            if i < n:	# 小于n的下标才保存到栈中
+                stack.append(i)
+        return result
+```
 
 ## 哈希表
 
 ### 两数之和
 
-[力扣](https://leetcode-cn.com/problems/two-sum/description/)
+[力扣-1](https://leetcode-cn.com/problems/two-sum/description/)
+
+![image-20201227203606388](https://gitee.com/turbobin_cao/images/raw/master/image-20201227203606388.png)
+
+**解题思路：** 使用散列表保存数组元素与下标的对应关系，同时，散列表可以快速判断一个数是否存在。
+
+```python
+class Solution(object):
+    def twoSum(self, nums, target):
+        hashmap = {}
+        n = len(nums)
+        for i in range(n):
+            num = nums[i]
+            other = target - num
+            if other in hashmap:
+                return [hashmap[other], i]
+            hashmap[num] = i
+        return None
+```
 
 ### 判断数组是否含有重复元素
 
-[力扣](https://leetcode-cn.com/problems/contains-duplicate/description/)
+[力扣-217](https://leetcode-cn.com/problems/contains-duplicate/description/)
+
+![image-20201227204135834](https://gitee.com/turbobin_cao/images/raw/master/image-20201227204135834.png)
+
+**解题思路：** 使用 hashset 结构进行判重，也可以使用 bitmap 结构。
+
+```python
+class Solution(object):
+    def containsDuplicate(self, nums):
+        hashset = set()
+        for num in nums:
+            if num in hashset:
+                return True
+            hashset.add(num)
+        return False
+```
 
 ### 最长和谐序列
 
-[力扣](https://leetcode-cn.com/problems/longest-harmonious-subsequence/description/)
+[力扣-594](https://leetcode-cn.com/problems/longest-harmonious-subsequence/description/)
+
+![image-20201227205256269](https://gitee.com/turbobin_cao/images/raw/master/image-20201227205256269.png)
+
+**解题思路：** 这题不太好理解，题目要求的是最长和谐子序列，但是不要求是元素连续的子序列。求最长和谐序列，那么，针对每个元素 num，必须要使 num+1 也在数组中，和谐序列的长度就是 num 与 num+1 元素个数的和。
+
+```python
+class Solution(object):
+    def findLHS(self, nums):
+        hashmap = {}
+        # 统计每个元素的个数
+        for num in nums:
+            hashmap[num] = hashmap.get(num, 0) + 1
+
+        longest = 0
+        for num, cnt in hashmap.items():
+            if (num + 1) not in hashmap:
+                continue
+            count = cnt + hashmap[num + 1]
+            longest = max(longest, count)
+        return longest
+```
 
 ### 最长连续序列
 
-[力扣](https://leetcode-cn.com/problems/longest-consecutive-sequence/description/)
+[力扣-128](https://leetcode-cn.com/problems/longest-consecutive-sequence/description/)
+
+![image-20201227223300020](https://gitee.com/turbobin_cao/images/raw/master/image-20201227223300020.png)
+
+**解题思路：** 本题和上一题类似，不同的是需要找出连续的最长序列，只需要对每个元素不断加 1，并检查是否在数组中，记录加 1 的次数就是最长序列的长度。为了减少时间复杂度，可以判断当前元素减 1 是否在数组中，如果在，说明当前元素已经被统计过，跳过这次检查。为了快速判断元素是否在数组中，需要将数组转成 hashset
+
+```python
+class Solution(object):
+    def longestConsecutive(self, nums):
+        hashset = set(nums)
+        longest = 0
+        for num in hashset:
+            # 优化逻辑，减小时间复杂度
+            if (num - 1) in hashset:
+                continue
+            i = 1
+            while (num + i) in hashset:
+                i += 1
+            longest = max(longest, i)
+        return longest
+```
 
 ## 字符串
 
 ### 两个字符串包含的字符是否完全相同
 
-[力扣](https://leetcode-cn.com/problems/valid-anagram/description/)
+[力扣-242](https://leetcode-cn.com/problems/valid-anagram/description/)
+
+![image-20201227225930194](https://gitee.com/turbobin_cao/images/raw/master/image-20201227225930194.png)
+
+**解题思路：** 首先判断两个字符长度是否相同，然后将 s 构造成 hashmap，value 值为字符串出现的个数，遍历 t 中的字符，如果在字符串 s 的 hashmap 中存在，则个数减 1，最后成立的条件是 hashmap 中所有元素的个数都等于 0。
+
+```python
+class Solution(object):
+    def isAnagram(self, s, t):
+        if len(s) != len(t):
+            return False
+        hashmap = {}
+        for c in s:
+            hashmap[c] = hashmap.get(c, 0) + 1
+        for char in t:
+            if char not in hashmap:
+                return False
+            if hashmap[char] <= 0:
+                return False
+            hashmap[char] -= 1
+        return True
+```
 
 ### 计算一组字符集合可以组成的回文字符串的最大长度
 
-[力扣](https://leetcode-cn.com/problems/longest-palindrome/description/)
+[力扣-409](https://leetcode-cn.com/problems/longest-palindrome/description/)
+
+![image-20201227233106407](https://gitee.com/turbobin_cao/images/raw/master/image-20201227233106407.png)
+
+**解题思路：** 先统计每个字符出现的次数，出现偶数次的字符都可以构造回文串，出现奇数次的，如果大于 2 次，最多可以取 cnt - 1 次，另外可以取 1 个出现奇数次的字符放中间。
+
+```python
+class Solution(object):
+    def longestPalindrome(self, s):
+        hashmap = {}
+        for c in s:
+            hashmap[c] = hashmap.get(c, 0) + 1
+        longest = 0
+        odd = 0
+        for char, cnt in hashmap.items():
+            if cnt % 2 == 0:
+                # 偶数的都满足条件
+                longest += cnt
+            elif cnt > 2:
+                longest += (cnt - 1)
+                odd = 1
+            else:
+                odd = 1
+        return longest + odd
+```
 
 ### 字符串同构
 
-[力扣](https://leetcode-cn.com/problems/isomorphic-strings/description/)
+[力扣-205](https://leetcode-cn.com/problems/isomorphic-strings/description/)
 
-### 回文子字符串个数
+![image-20201227235423254](https://gitee.com/turbobin_cao/images/raw/master/image-20201227235423254.png)
 
-[力扣](https://leetcode-cn.com/problems/palindromic-substrings/description/)
+**解题思路：** 转化为比较下标数字是否相等，如 "egg"  -> [1, 2, 2]，"add" -> [1, 2, 2]，那么这两个字符串就是同构的。
+
+```python
+class Solution(object):
+    def isIsomorphic(self, s, t):
+        s1 = []
+        hashs = {}
+        for i, char in enumerate(s):
+            index = hashs.get(char, i)
+            hashs[char] = index
+            s1.append(index)
+
+        t1 = []
+        hasht = {}
+        for i, char in enumerate(t):
+            index = hasht.get(char, i)
+            hasht[char] = hasht.get(char, i)
+            t1.append(index)
+        return s1 == t1
+```
 
 ### 判断一个整数是否是回文数
 
