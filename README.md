@@ -1275,11 +1275,78 @@ class Solution(object):
 
 ### 判断一个整数是否是回文数
 
-[力扣](https://leetcode-cn.com/problems/palindrome-number/description/)
+[力扣-9](https://leetcode-cn.com/problems/palindrome-number/description/)
+
+![image-20210102224315178](https://gitee.com/turbobin_cao/images/raw/master/image-20210102224315178.png)
+
+**方法一：** 先转化为字符串，然后使用双指针判断
+
+```python
+class Solution(object):
+    def isPalindrome(self, x):
+        s = str(x)
+        i, j = 0, len(s) - 1
+        while i < j:
+            if s[i] != s[j]:
+                return False
+            i += 1
+            j -= 1
+        return True
+```
+
+**方法二：** 如果要求不能将数字转成字符串解决，那么就要思考使用数学的方式。将数字进行反转，不断取出个位数，组装成新的数，再和原数比较是否相等。考虑到直接反转有可能超过 int 的范围，所以可以将一半的数字进行反转，和剩下一半进行比较。
+
+```python
+class Solution(object):
+    def isPalindrome(self, x):
+        # 负数，或者个位数是0的非零整数不可能是回文数字
+        if x < 0 or (x % 10 == 0 and x != 0):
+            return False
+        y = 0
+        # 当新组装的数大于剩下的数字时，说明已经反转一半了
+        while x > y:
+            # 不断除以10, 余数就是个位数
+            x, mod = divmod(x, 10)
+            y = y * 10 + mod
+        # 如果数字的长度是奇数，那么新组装的数需要除以10忽略掉个位数再比较
+        return x == y or x == y / 10
+```
 
 ### 统计二进制字符串中连续 1 和连续 0 数量相同的子字符串个数
 
-[力扣](https://leetcode-cn.com/problems/count-binary-substrings/description/)
+[力扣-696](https://leetcode-cn.com/problems/count-binary-substrings/description/)
+
+![image-20210103003322273](https://gitee.com/turbobin_cao/images/raw/master/image-20210103003322273.png)
+
+**解题思路：** 先统计连续的 0 和 1 分别有多少个，如：111100011000，得到4323；在4323中的任意相邻两个数字，取小的一个加起来，就是3+2+2 = 7。如何统计连续的 0 和 1 个人呢？使用滑动窗口思想。具体看如下代码：
+
+```python
+class Solution(object):
+    def countBinarySubstrings(self, s):
+        n = len(s)
+        nums = []
+        i = 0
+        # 滑动窗口,一头一尾两个指针
+        for j in range(n):
+            if s[j] != s[i]:
+                # 首尾两数不相等时，记录窗口长度，同时使头指针等于尾指针
+                nums.append(j-i)
+                i = j
+            # 边界情况，尾指针到达末尾了
+            if j == n - 1:
+                nums.append(j-i+1)
+
+        i, j = 0, 1
+        result = 0
+        while j < len(nums):
+            # 相邻两数取最小
+            result += min(nums[i], nums[j])
+            i += 1
+            j += 1
+        return result
+```
+
+
 
 ## 树
 
